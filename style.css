@@ -1,8 +1,30 @@
+
 body{
     font-family: 'Times New Roman', Times, serif;
     margin: 0;
     background-color: #011640;
+
+    overflow-x: hidden;
+    padding: 0;
 }
+
+.josefin-sans {
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500px;
+    font-style: normal;
+  }
+  
+  .kalnia {
+    font-family: "Kalnia", serif;
+    font-optical-sizing: auto;
+    font-weight: 500px;
+    font-style: normal;
+  }
+  
+  .title{
+      font-family: "Kalnia", serif;
+  }  
 
 .header{
     width: 100%;
@@ -19,6 +41,13 @@ body{
 }
 
 h2{
+    margin: 1%;
+}
+
+h1{
+    font-family: "Kalnia", serif;
+
+    color: white;
     margin: 1%;
 }
 
@@ -42,16 +71,16 @@ a{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 0;
 }
 
-img{
+img.imagemB{
     margin: 0;
     position: relative;
-}
-
-.imagemB{
-    width: 100%;
-    margin: 0;
+    width: 115vw;
+    height: 115vh;
+    display: block;
+    object-fit: cover;
 }
 
 .title{
@@ -59,24 +88,6 @@ img{
     z-index: 1;
     color: #FFFFFF;
     font-size: 60px;
-}
-
-.josefin-sans {
-  font-family: "Josefin Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 500px;
-  font-style: normal;
-}
-
-.kalnia {
-  font-family: "Kalnia", serif;
-  font-optical-sizing: auto;
-  font-weight: 500px;
-  font-style: normal;
-}
-
-.title{
-    font-family: "Kalnia", serif;
 }
 
 .subtitulo{
@@ -100,4 +111,12 @@ img{
 
 p{
     margin: 2px;
+}
+
+hr{
+    height: 4px;
+    background-color: #FFFFFF;
+    margin: 0;
+    margin-top: -1%;
+    position: relative;
 }
